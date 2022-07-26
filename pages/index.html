@@ -22,37 +22,23 @@
     <title>CBVA</title>
 </head>
 <header class="cabecalho">
-    <img class="logo-cabecalho" src="/images/CBVA-LOGO.png" alt="">
+    <a href="#"><img class="logo-cabecalho" src="/images/CBVA-LOGO.png" alt=""></a>
 
-    <nav class="nav-cabecalho">
-        <a class="item-nav-cabecalho" href="">Igreja</a>
-        <a class="item-nav-cabecalho" href="">Quem Somos</a>
-        <a class="item-nav-cabecalho" href="">Eventos</a>
-        <a class="item-nav-cabecalho" href="">Palavra</a>
-        <a class="item-nav-cabecalho" href="https://www.youtube.com/c/R%C3%A1dioGospelCapital" target="_blank">Culto ao
-            vivo</a>
-        <a class="item-nav-cabecalho" href="https://www.radiogospelcapital.com.br/" target="_blank">Rádio</a>
-        <a class="item-nav-cabecalho" href="">Colabore</a>
-        <a class="item-nav-cabecalho" href="">Contato</a>
+    <nav>
+        <ul class="nav-cabecalho">
+            <li><a class="item-nav-cabecalho" href="">Igreja</a></li>
+            <li><a class="item-nav-cabecalho" href="">Quem Somos</a></li>
+            <li><a class="item-nav-cabecalho" href="#eventos">Eventos</a></li>
+            <li><a class="item-nav-cabecalho" href="">Palavra</a></li>
+            <li><a class="item-nav-cabecalho" href="https://www.youtube.com/c/R%C3%A1dioGospelCapital"
+                    target="_blank">Culto ao vivo</a></li>
+            <li><a class="item-nav-cabecalho" href="https://www.radiogospelcapital.com.br/" target="_blank">Rádio</a>
+            </li>
+            <li><a class="item-nav-cabecalho" href="#midias">Mídias Sociais</a></li>
+            <li><a class="item-nav-cabecalho" href="">Colabore</a></li>
+            <li><a class="item-nav-cabecalho" href="">Contato</a></li>
+        </ul>
     </nav>
-
-    <ul class="icones-redes-sociais">
-        <li>
-            <a href="https://www.facebook.com/BatistaCBVA" target="_blank">
-                <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/batistacbva/" target="_blank">
-                <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/channel/UCQLgcT1mwjavswAzHefrKsw" target="_blank">
-                <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
-            </a>
-        </li>
-    </ul>
 
 </header>
 
@@ -122,7 +108,8 @@
 
     <!-- GRID de EVENTOS -->
     <section class="section-event">
-        <h3>PRÓXIMOS EVENTOS</h3>
+        <h3>EVENTOS</h3>
+        <span id="eventos"></span>
 
         <div class="evento-mae">
 
@@ -176,36 +163,62 @@
 
 
     </section>
-    
-    <footer>
 
+    <footer>
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://www.facebook.com/BatistaCBVA" target="_blank">
+                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/batistacbva/" target="_blank">
+                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCQLgcT1mwjavswAzHefrKsw" target="_blank">
+                    <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
+                </a>
+            </li>
+            <span id="midias"></span>
+        </ul>
     </footer>
+
+    <button id="voltar-ao-topo"><img src="/images/setas-para-cima.png" alt=""></button>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoHeight: true,
+            autoWidth: true,
+            autoplay: true,
+            autoplayTimeout: 80000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+
+        var vtopo = document.querySelector("#voltar-ao-topo");
+
+        vtopo.addEventListener("click", function() {
+            window.scrollTo(0, 0);
+        })
+    </script>
 </body>
 
 
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: false,
-        autoHeight: true,
-        autoWidth: true,
-        autoplay: true,
-        autoplayTimeout: 80000,
-        autoplayHoverPause: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 5
-            }
-        }
-    })
-</script>
 
 </html>
 
@@ -282,7 +295,7 @@
                     </div>
                 </div>
             </div>
- -->
+
 
 <!-- CARDS MANUAIS
 

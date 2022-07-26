@@ -36,43 +36,6 @@
     color: rgb(109, 109, 109);
 }
 
-.icones-redes-sociais,
-img {
-    width: 28px;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-.icones-redes-sociais {
-    display: flex;
-    gap: 10px;
-}
-
-.icons-redes {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 30px;
-    border: 3px solid rgb(255, 255, 255);
-    transition-property: background-color, border;
-    transition-duration: 1s;
-}
-
-.icons-redes:hover {
-    background-color: rgb(201, 201, 201);
-    border-color: rgb(201, 201, 201);
-}
-
-
-
-.carousel-inner {
-    width: 50px%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-
-
 
 
 
@@ -125,6 +88,7 @@ img {
     background-color: rgb(39, 37, 37);
 
 }
+
 
 
 
@@ -187,13 +151,15 @@ img {
 
 
 
+
 .section-event {
     color: #ffffff;
     background-color: rgb(39, 37, 37);
     margin-top: 7vh;
 }
 
-.section-event, h3 {
+.section-event,
+h3 {
     text-align: center;
     padding-top: 20px;
 }
@@ -239,6 +205,45 @@ img {
 }
 
 
+
+
+
+
+.icones-redes-sociais,
+img {
+    width: 28px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-redes {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30px;
+    border: 3px solid rgb(255, 255, 255);
+    transition-property: background-color, border;
+    transition-duration: 1s;
+}
+
+.icons-redes:hover {
+    background-color: rgb(201, 201, 201);
+    border-color: rgb(201, 201, 201);
+}
+
+
+
+#voltar-ao-topo {
+    position: fixed;
+    bottom: 32px;
+    right: 50px;
+    background-color:rgba(134, 0, 168, 0.781);
+    border-radius: 5px;
+}
 
 /* .card-somos {
     background-image: url("/images/");

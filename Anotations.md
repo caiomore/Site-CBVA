@@ -1,7 +1,6 @@
 #Mudar font do projeto
 #Fazer alterações na estilização do Bootstrap
 #Desenvolver javascript (interação)
-#Desenvolver back-end
 
 
 INDEX:
