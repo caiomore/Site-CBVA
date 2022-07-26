@@ -62,6 +62,21 @@ img {
     border-color: rgb(201, 201, 201);
 }
 
+
+
+.carousel-inner {
+    width: 50px%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+
+
+
 .home-main {
     border: 2px black;
     background-color: rgb(255, 255, 255);
@@ -110,6 +125,8 @@ img {
     background-color: rgb(39, 37, 37);
 
 }
+
+
 
 
 .container-quem-somos {
@@ -167,6 +184,9 @@ img {
 }
 
 
+
+
+
 .section-event {
     color: #ffffff;
     background-color: rgb(39, 37, 37);
@@ -192,6 +212,9 @@ img {
     border-radius: 20px 1px 20px 20px;
     margin-bottom: 8px;
 }
+
+
+
 
 
 .box-diferent {
