@@ -161,38 +161,41 @@ img {
     animation: colors 10s ease infinite;
 }
 
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .img-somos {
     position: absolute;
     width: 40vh;
 }
 
-.titulo-evento-section {
+
+.section-event, h3 {
+    text-align: center;
+}
+
+.evento-mae {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-card {
+    
+}
+
+.img-event-card {
+    width: 27vw;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+/* .titulo-evento-section {
     text-align: center;
     font-size: 25px;
     font-weight: 300;
 }
 
-.carrossel-eventos {
-    width: 50vw;
-    display: block;
-    margin: 0 auto;
-    border-radius: 25px;
-    margin-top: 60px;
-}
 
 .descricao-eventos {
     text-align: center;
@@ -202,7 +205,7 @@ img {
 
 .descricao-eventos p {
     margin-right: 7vh
-}
+} */
 
 
 /* Criar gradient que se move */
