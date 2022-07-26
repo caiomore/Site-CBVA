@@ -154,9 +154,9 @@ img {
     height: 82vh;
     width: 95vh;
     background: rgba(197, 147, 96, 1.0);
-    background: -webkit-linear-gradient(top left, #000000,#3E065F, #700B97, #8E05C2);
-    background: -moz-linear-gradient(top left, #000000,#3E065F, #700B97, #8E05C2);
-    background: linear-gradient(to bottom right, #000000,#3E065F, #700B97, #8E05C2);
+    background: -webkit-linear-gradient(top left, #000000, #3E065F, #700B97, #8E05C2);
+    background: -moz-linear-gradient(top left, #000000, #3E065F, #700B97, #8E05C2);
+    background: linear-gradient(to bottom right, #000000, #3E065F, #700B97, #8E05C2);
     background-size: 250% 250%;
     animation: colors 10s ease infinite;
 }
@@ -167,48 +167,33 @@ img {
 }
 
 
+.section-event {
+    color: #ffffff;
+    background-color: rgb(39, 37, 37);
+    margin-top: 7vh;
+}
+
 .section-event, h3 {
     text-align: center;
+    padding-top: 20px;
 }
 
 .evento-mae {
+    margin: 0 auto;
+    width: 76%;
+    height: 40vh;
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.event-card {
-    
 }
 
 .img-event-card {
-    width: 27vw;
-    display: block;
+    height: 250px;
     margin: 0 auto;
-    border-radius: 20px;
-    margin-top: 60px;
-}
-
-/* .titulo-evento-section {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
+    border-radius: 20px 1px 20px 20px;
+    margin-bottom: 8px;
 }
 
 
-.descricao-eventos {
-    text-align: center;
-    margin-right: 80vh;
-    margin-top: 30px;
-}
-
-.descricao-eventos p {
-    margin-right: 7vh
-} */
-
-
-/* Criar gradient que se move */
 .box-diferent {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -223,10 +208,12 @@ img {
     margin-top: 10vh;
 }
 
-.junte-diferent {}
-
-
-
+.item,
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
 
 
 
