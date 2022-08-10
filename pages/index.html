@@ -27,16 +27,16 @@
     <nav>
         <ul class="nav-cabecalho">
             <li><a class="item-nav-cabecalho" href="">Igreja</a></li>
-            <li><a class="item-nav-cabecalho" href="">Quem Somos</a></li>
+            <li><a class="item-nav-cabecalho" href="#quem-somos">Quem Somos</a></li>
             <li><a class="item-nav-cabecalho" href="#eventos">Eventos</a></li>
             <li><a class="item-nav-cabecalho" href="">Palavra</a></li>
             <li><a class="item-nav-cabecalho" href="https://www.youtube.com/c/R%C3%A1dioGospelCapital"
                     target="_blank">Culto ao vivo</a></li>
             <li><a class="item-nav-cabecalho" href="https://www.radiogospelcapital.com.br/" target="_blank">Rádio</a>
             </li>
-            <li><a class="item-nav-cabecalho" href="#midias">Mídias Sociais</a></li>
             <li><a class="item-nav-cabecalho" href="">Colabore</a></li>
             <li><a class="item-nav-cabecalho" href="">Contato</a></li>
+            <li><a class="item-nav-cabecalho" href="#midias">Mídias Sociais</a></li>
         </ul>
     </nav>
 
@@ -82,26 +82,28 @@
     </section>
 
     <main class="quem-somos">
+        <span id="quem-somos"></span>
         <div class="container-quem-somos">
             <div class="container-text">
-                <H3 class="titulo-somos">A CBVA foi criada no ano de XXXX, pelo Bispo Osmar. Nascendo de um desejo
-                    incontrolável de alcançar
-                    vidas <br>
-                    e cumprir o chamado sacerdotal que nos foi designado!</H3>
+                <h1 class="titulo-g">QUEM SOMOS</h1>
 
-                <h5 class="sub-titulo-somos">Cuidada e abençoada por grandes líderes competentes e comprometidos com a
+                <H3 class="titulo-m">A CBVA foi criada no ano de XXXX, pelo Bispo Osmar. Nascendo de um desejo
+                    incontrolável de alcançar
+                    vidas e cumprir o chamado sacerdotal que nos foi designado!</H3>
+
+                <h5 class="sub-titulo">Cuidada e abençoada por grandes líderes competentes e comprometidos com a
                     obra de Deus.</h5>
 
-                <p class="p1-somos">Nossa diferença é ser família, abraçar, cuidar e desenvolver cristãos capacitados
+                <p class="p">Nossa diferença é ser família, abraçar, cuidar e desenvolver cristãos capacitados
                     para
                     um vida de intimidade e santidade com o Pai. Amamos vidas, e nos comprometemos de
                     faze-las altares onde Deus habita com prazer, sobre a base da cultura do Reino!</p>
             </div>
 
-            <div class="card-somos">
-                <div class="gradient"></div>
-                <img class="img-somos" src="/images/bispo_osmar.jpg" alt="">
-            </div>
+            <div class="card-somos"><iframe class="card-somos" src="https://www.youtube.com/embed/gdqxlastrQk"
+                    title="CULTO DE ADORAÇÃO A DEUS" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></div>
         </div>
         </div>
     </main>
@@ -187,35 +189,7 @@
 
     <button id="voltar-ao-topo"><img src="/images/setas-para-cima.png" alt=""></button>
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: false,
-            autoHeight: true,
-            autoWidth: true,
-            autoplay: true,
-            autoplayTimeout: 80000,
-            autoplayHoverPause: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
-                }
-            }
-        })
-
-        var vtopo = document.querySelector("#voltar-ao-topo");
-
-        vtopo.addEventListener("click", function() {
-            window.scrollTo(0, 0);
-        })
-    </script>
+    <script src="/js/index.js"></script>
 </body>
 
 
