@@ -26,3 +26,12 @@ var vtopo = document.querySelector("#voltar-ao-topo");
 vtopo.addEventListener("click", function () {
     window.scrollTo(0, 0);
 })
+
+
+// COLABORE
+function colabore() {
+    var img = document.createElement('img');
+    img.src = "/images/CBVA-LOGO.png";
+
+    
+}

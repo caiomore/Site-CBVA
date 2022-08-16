@@ -34,7 +34,7 @@
                     target="_blank">Culto ao vivo</a></li>
             <li><a class="item-nav-cabecalho" href="https://www.radiogospelcapital.com.br/" target="_blank">Rádio</a>
             </li>
-            <li><a class="item-nav-cabecalho" href="">Colabore</a></li>
+            <li><a class="item-nav-cabecalho" href="#colabore">Colabore</a></li>
             <li><a class="item-nav-cabecalho" href="">Contato</a></li>
             <li><a class="item-nav-cabecalho" href="#midias">Mídias Sociais</a></li>
         </ul>
@@ -78,7 +78,7 @@
         <h2 class="home-titulo">Somos a igreja que anuncia o evangelho de Cristo, sua graça<br> e sua justiça de forma
             pura e simples como <i>Ele</i> é.</h2>
 
-        <button class="home-botao">Podemos orar por você?</button>
+        <button class="botao">Podemos orar por você?</button>
     </section>
 
     <main class="quem-somos">
@@ -149,197 +149,64 @@
         </div>
     </section>
 
-    <section class="colabore-container">
-        <div class="box-diferent">
-            <h1 class="title-diferent">Faça a Diferença!</h1>
+    <section class="colabore-event">
+        <span id="colabore"></span>
+        <div class="colabore-section">
+            <h1 class="titulo-g" style="margin-bottom: 20px;">Colabore</h1>
+            <p class="p">O reino de Deus necessita do mover de seu povo. <br>
+                Estamos nos movendo a mando de Deus, por causas de necessidades perto e longe de nós!</p>
 
-            <!-- Botão de redirecionamento de página, para ver videos e fotos de doações, trabalhos de evangelismo e atendimento a moradores de rua. -->
-            <button class="junte-diferent">SE JUNTE A NÓS.</button>
+            <p class="p" style="font-style: italic; font-weight:500">"Queremos ajudar o mundo, o povo de dentro e fora
+                da casa CBVA, com abundância." - <b>Bispo Osmar</b></p>
+
+            <button class="botao" onclick="colabore()" style="margin-top: 50px;">CLIQUE AQUI PARA COLABORAR</button>
+
+            <span id="img-col"></span>
         </div>
-
-        <h1>Colabore</h1>
-        <p>O reino de Deus necessita do mover de seu povo. <br>
-            Estamos nos movendo a mando de Deus, por causas de necessidades perto e longe de nós!</p>
-
-        <p>Queremos ajudar o mundo, o povo de dentro e fora da casa CBVA, com abundância.</p>
-
-
     </section>
 
     <footer>
-        <ul class="icones-redes-sociais">
-            <li>
-                <a href="https://www.facebook.com/BatistaCBVA" target="_blank">
-                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/batistacbva/" target="_blank">
-                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCQLgcT1mwjavswAzHefrKsw" target="_blank">
-                    <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
-                </a>
-            </li>
-            <span id="midias"></span>
-        </ul>
+        <div class="footer">
+            <div class="footer-block">
+                <img class="icons-footer" src="https://img.icons8.com/ios/50/000000/marker--v1.png" />
+                <h1 class="titulo-footer">ONDE ESTAMOS</h1><br>
+                <h3><a>Clique aqui</a></h3>
+            </div>
+
+            <div class="footer-block">
+                <ul class="icones-redes-sociais">
+                    <li>
+                        <a href="https://www.facebook.com/BatistaCBVA" target="_blank">
+                            <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/batistacbva/" target="_blank">
+                            <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCQLgcT1mwjavswAzHefrKsw" target="_blank">
+                            <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
+                        </a>
+                    </li>
+                    <span id="midias"></span>
+                </ul>
+            </div>
+
+            <div class="footer-block">
+                <img class="icons-footer"
+                    src="https://img.icons8.com/external-simple-line-edt.graphics/50/000000/external-Chat-chat-bubbles-simple-line-edt.graphics-8.png" />
+                <h1 class="titulo-footer">FALE CONOSCO</h1>
+            </div>
+        </div>
+        <div>
+            <h3>CBVA.com.br - Copyright @ 2022.</h3>
+        </div>
     </footer>
 
     <button id="voltar-ao-topo"><img src="/images/setas-para-cima.png" alt=""></button>
-
     <script src="/js/index.js"></script>
 </body>
 
-
-
 </html>
-
-
-<!-- CARD BOOTSTRAP
-                <div class="card-somos">
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/bispo_osmar.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="">Bispo Osmar</h4>
-                        <p class="card-text">Fundador da Igreja Comunidade Batista Vidas no Altar.</p>
-                        <ul class="icones-redes-sociais" id="redes-card">
-                            <li>
-                                <a href="https://www.facebook.com/osmar.gomesdasilva.923" target="_blank">
-                                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/osmargomes35/" target="_blank">
-                                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/luciano_dani.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="">Daniela Archila</h4>
-                        <p class="card-text">Pastora e líder geral da Comunidade Batista Vidas no Altar.</p>
-                        <ul class="icones-redes-sociais" id="redes-card">
-                            <li>
-                                <a href="https://www.facebook.com/osmar.gomesdasilva.923" target="_blank">
-                                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/osmargomes35/" target="_blank">
-                                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="/images/luciano.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="">Luciano Archila</h4>
-                        <p class="card-text">Pastor, líder e piloto da Comunidade Batista Vidas no Altar.</p>
-                        <ul class="icones-redes-sociais" id="redes-card">
-                            <li>
-                                <a href="https://www.facebook.com/luciano.archila" target="_blank">
-                                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/luciano_archila/" target="_blank">
-                                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/c/R%C3%A1dioGospelCapital" target="_blank">
-                                    <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.radiogospelcapital.com.br/" target="_blank">
-                                    <img class="icons-redes" src="/images/microfone.png" alt="Rádio">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-<!-- CARDS MANUAIS
-
-    <div class="card-somos">
-    <div class="card bispo">
-        <img class="image-card" src="/images/bispo_osmar.jpg" alt="">
-        <h4 class="">Bispo Osmar</h4>
-        <p>Fundador da Igreja Comunidade Batista Vidas no Altar.</p>
-        <ul class="icones-redes-sociais">
-            <li>
-                <a href="https://www.facebook.com/osmar.gomesdasilva.923" target="_blank">
-                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/osmargomes35/" target="_blank">
-                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="card dani">
-        <img class="image-card" src="/images/luciano_dani.jpg" alt="">
-        <h4>Daniela Archila</h4>
-        <p>Pastora e líder geral da Comunidade Batista Vidas no Altar.</p>
-        <ul class="icones-redes-sociais">
-            <li>
-                <a href="https://www.facebook.com/dani.xsantos" target="_blank">
-                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/daniela_xsantos/" target="_blank">
-                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/watch?v=1hAQ2hOc6E4&t=99s" target="_blank">
-                    <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="card luciano">
-        <img class="image-card" src="/images/luciano.jpg" alt="">
-        <h4>Luciano Archila</h4>
-        <p>Pastor, líder e piloto da Comunidade Batista Vidas no Altar.</p>
-        <ul class="icones-redes-sociais">
-            <li>
-                <a href="https://www.facebook.com/luciano.archila" target="_blank">
-                    <img class="icons-redes" src="/images/facebook.svg" alt="Facebook">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/luciano_archila/" target="_blank">
-                    <img class="icons-redes" src="/images/instagram.svg" alt="Instagram">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/c/R%C3%A1dioGospelCapital" target="_blank">
-                    <img class="icons-redes" src="/images/youtube.svg" alt="Youtube">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.radiogospelcapital.com.br/" target="_blank">
-                    <img class="icons-redes" src="/images/microfone.png" alt="Rádio">
-                </a>
-            </li>
-        </ul>
-    </div>
-     -->

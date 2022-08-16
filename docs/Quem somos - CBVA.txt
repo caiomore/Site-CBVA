@@ -14,4 +14,4 @@ botão: Confira nossos eventos (pagina de eventos com relação de semanais, men
 
 semanal: células (encontre a célula mais perto de você), oração, radio e cultos.
 mensal: culto das mulheres, jovens e eventos de casais ou paralelo.
-anual: sala do pai, influence e outras conferencias. 
+anual: sala do pai, influence e outras conferencias.
